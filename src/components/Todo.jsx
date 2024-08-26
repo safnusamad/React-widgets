@@ -11,7 +11,7 @@ const Todo = () => {
     const add=()=>{
         const inputText = inputRef.current.value.trim();
 
-        if (inputRef === " ") {
+        if (inputText === "") {
             return null;
         }
 
